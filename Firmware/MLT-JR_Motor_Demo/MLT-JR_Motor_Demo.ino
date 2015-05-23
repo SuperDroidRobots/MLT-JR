@@ -33,7 +33,10 @@
 // Libraries
 // ****************************************************
 #include <SoftwareSerial.h>
-#include <Sabertooth.h>
+#include <Sabertooth.h>    
+
+// The Sabertooth library can be downlaoded from the link below
+// http://www.dimensionengineering.com/info/arduino
 
 
 // ****************************************************
