@@ -7,8 +7,11 @@ If you have requests for additional code samples, please send them to info (at) 
 Demonstrates motor movement by ramping the motors up and down in each direction. This is the demonstration code that is pre-programmed on all assembled MLT-JR Programmable Platforms (TP-230-002).
 
 ## Sensor Demo
-Builds on the motor demo examply by adding an IR sensor to the front of the robot to perform basic object avoidance.
+Builds on the motor demo example by adding an IR sensor to the front of the robot to perform basic object avoidance.
 
-#External Library Dependencies
+## xBee Demo
+Builds on the motor demo example and combines it with our xBee Remote system (TE-900-004) for wireless joystick control. 
+
+# External Library Dependencies
 __Sabertooth__ -   Library developed by Dimension Engineering for control of the Sabertooth and Syren motor controllers. 
 http://www.dimensionengineering.com/info/arduino

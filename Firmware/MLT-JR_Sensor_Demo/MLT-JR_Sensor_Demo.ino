@@ -47,10 +47,10 @@
 #define SENSOR A0 
 
 // ****************************************************
-// Initialize software serial for the motor controller
+// Motor Controller
 // ****************************************************
-SoftwareSerial SWSerial(NOT_A_PIN, SAB_PORT);
-Sabertooth ST(SWSerial);
+SoftwareSerial SWSerial(NOT_A_PIN, 13); // RX on no pin (unused), TX on pin 13 (to S1).
+Sabertooth ST(128, SWSerial);           // Address 128, and use SWSerial as the serial port.
 
 // ****************************************************
 // Misc Constants and Globals
